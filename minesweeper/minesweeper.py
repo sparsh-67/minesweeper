@@ -252,13 +252,6 @@ class MinesweeperAI():
                 ct2=st2.count
                 if c1 in c2:
                     self.knowledge.append(Sentence(c2-c1,ct2-ct1))
-        print("sparsh and rohit!")
-
-
-
-
-
-
 
     def make_safe_move(self):
         """
